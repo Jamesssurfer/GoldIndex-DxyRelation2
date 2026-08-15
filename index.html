@@ -9,13 +9,16 @@
             body, table, th, td, h1, h2, p, span {
                 font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
             }
+            body {
+                font-size: 95%;
+            }
         </style>
     </head>
     <body class="bg-gray-100 min-h-screen font-sans">
         <div class="max-w-full mx-auto px-4 py-8">
             <header class="mb-8 border-b border-gray-200 pb-4">
                 <h1 class="text-3xl font-extrabold text-gray-900 tracking-tight">Gold / S&amp;P / DXY Correlation Tracker</h1>
-                <p class="text-sm text-gray-500 mt-2">Automated Execution Pipeline Log — Generated Live on 2026-08-15 21:34:52</p>
+                <p class="text-sm text-gray-500 mt-2">Automated Execution Pipeline Log — Generated Live on 2026-08-16 00:42:35</p>
             </header>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
@@ -125,123 +128,6 @@
                             </tbody>
                         </table>
                     </div>
-                </div>
-            </div>
-
-            <div class="bg-white rounded-lg shadow overflow-hidden mb-8">
-                <div class="px-4 py-3 bg-gray-800 text-white font-semibold text-sm">
-                    Split-Half Reliability Check — 1st Half vs 2nd Half of History
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="min-w-full table-auto">
-                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase tracking-wider text-left">
-                            <tr>
-                                <th class="px-4 py-3">Time Bucket</th>
-                                <th class="px-4 py-3">S&amp;P — 1st Half</th>
-                                <th class="px-4 py-3">S&amp;P — 2nd Half</th>
-                                <th class="px-4 py-3 text-center">S&amp;P Consistent?</th>
-                                <th class="px-4 py-3">DXY — 1st Half</th>
-                                <th class="px-4 py-3">DXY — 2nd Half</th>
-                                <th class="px-4 py-3 text-center">DXY Consistent?</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-gray-200">
-                            
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">16:30</td>
-            <td class="px-4 py-3 whitespace-nowrap">55.7% (n=140, p=0.176)</td>
-            <td class="px-4 py-3 whitespace-nowrap">68.6% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
-            <td class="px-4 py-3 whitespace-nowrap">66.4% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">16:45</td>
-            <td class="px-4 py-3 whitespace-nowrap">53.6% (n=140, p=0.398)</td>
-            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">50.0% (n=140, p=1.000)</td>
-            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:00</td>
-            <td class="px-4 py-3 whitespace-nowrap">55.0% (n=140, p=0.237)</td>
-            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">66.4% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 whitespace-nowrap">62.1% (n=140, p=0.004)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:15</td>
-            <td class="px-4 py-3 whitespace-nowrap">61.4% (n=140, p=0.007)</td>
-            <td class="px-4 py-3 whitespace-nowrap">71.4% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">51.4% (n=140, p=0.735)</td>
-            <td class="px-4 py-3 whitespace-nowrap">61.4% (n=140, p=0.007)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:30</td>
-            <td class="px-4 py-3 whitespace-nowrap">56.4% (n=140, p=0.128)</td>
-            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">55.7% (n=140, p=0.176)</td>
-            <td class="px-4 py-3 whitespace-nowrap">60.0% (n=140, p=0.018)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:45</td>
-            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
-            <td class="px-4 py-3 whitespace-nowrap">67.9% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">52.1% (n=140, p=0.612)</td>
-            <td class="px-4 py-3 whitespace-nowrap">70.7% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:00</td>
-            <td class="px-4 py-3 whitespace-nowrap">51.4% (n=140, p=0.735)</td>
-            <td class="px-4 py-3 whitespace-nowrap">69.3% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">56.4% (n=140, p=0.128)</td>
-            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:15</td>
-            <td class="px-4 py-3 whitespace-nowrap">52.9% (n=140, p=0.499)</td>
-            <td class="px-4 py-3 whitespace-nowrap">67.9% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">44.3% (n=140, p=0.176)</td>
-            <td class="px-4 py-3 whitespace-nowrap">68.6% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
-            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:30</td>
-            <td class="px-4 py-3 whitespace-nowrap">60.0% (n=140, p=0.018)</td>
-            <td class="px-4 py-3 whitespace-nowrap">72.1% (n=140, p=0.000)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
-            <td class="px-4 py-3 whitespace-nowrap">50.0% (n=140, p=1.000)</td>
-            <td class="px-4 py-3 whitespace-nowrap">47.9% (n=140, p=0.612)</td>
-            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
-        </tr>
-        
-                        </tbody>
-                    </table>
-                </div>
-                <div class="px-4 py-3 text-xs text-gray-500 border-t border-gray-200">
-                    History split chronologically in half. "Consistent" means the bucket was independently SIGNIFICANT (p &lt; 0.05) in BOTH halves separately — not just averaged across the full history. A bucket that's significant all-time but only holds up in one half is more likely a temporary regime than a structural relationship.
                 </div>
             </div>
 
@@ -379,6 +265,123 @@
                 </div>
                 <div class="px-4 py-3 text-xs text-gray-500 border-t border-gray-200">
                     "Edge" = hit rate differs from a 50% coin-flip at p &lt; 0.05 (two-sided, normal approximation), across full history. A "NOISE" flag means the observed hit rate is not statistically distinguishable from random chance at this sample size.
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow overflow-hidden mb-8">
+                <div class="px-4 py-3 bg-gray-800 text-white font-semibold text-sm">
+                    Split-Half Reliability Check — 1st Half vs 2nd Half of History
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full table-auto">
+                        <thead class="bg-gray-100 text-gray-600 text-xs uppercase tracking-wider text-left">
+                            <tr>
+                                <th class="px-4 py-3">Time Bucket</th>
+                                <th class="px-4 py-3">S&amp;P — 1st Half</th>
+                                <th class="px-4 py-3">S&amp;P — 2nd Half</th>
+                                <th class="px-4 py-3 text-center">S&amp;P Consistent?</th>
+                                <th class="px-4 py-3">DXY — 1st Half</th>
+                                <th class="px-4 py-3">DXY — 2nd Half</th>
+                                <th class="px-4 py-3 text-center">DXY Consistent?</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-200">
+                            
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">16:30</td>
+            <td class="px-4 py-3 whitespace-nowrap">55.7% (n=140, p=0.176)</td>
+            <td class="px-4 py-3 whitespace-nowrap">68.6% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
+            <td class="px-4 py-3 whitespace-nowrap">66.4% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">16:45</td>
+            <td class="px-4 py-3 whitespace-nowrap">53.6% (n=140, p=0.398)</td>
+            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">50.0% (n=140, p=1.000)</td>
+            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:00</td>
+            <td class="px-4 py-3 whitespace-nowrap">55.0% (n=140, p=0.237)</td>
+            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">66.4% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 whitespace-nowrap">62.1% (n=140, p=0.004)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:15</td>
+            <td class="px-4 py-3 whitespace-nowrap">61.4% (n=140, p=0.007)</td>
+            <td class="px-4 py-3 whitespace-nowrap">71.4% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">51.4% (n=140, p=0.735)</td>
+            <td class="px-4 py-3 whitespace-nowrap">61.4% (n=140, p=0.007)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:30</td>
+            <td class="px-4 py-3 whitespace-nowrap">56.4% (n=140, p=0.128)</td>
+            <td class="px-4 py-3 whitespace-nowrap">60.7% (n=140, p=0.011)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">55.7% (n=140, p=0.176)</td>
+            <td class="px-4 py-3 whitespace-nowrap">60.0% (n=140, p=0.018)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">17:45</td>
+            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
+            <td class="px-4 py-3 whitespace-nowrap">67.9% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">52.1% (n=140, p=0.612)</td>
+            <td class="px-4 py-3 whitespace-nowrap">70.7% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:00</td>
+            <td class="px-4 py-3 whitespace-nowrap">51.4% (n=140, p=0.735)</td>
+            <td class="px-4 py-3 whitespace-nowrap">69.3% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">56.4% (n=140, p=0.128)</td>
+            <td class="px-4 py-3 whitespace-nowrap">57.9% (n=140, p=0.063)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:15</td>
+            <td class="px-4 py-3 whitespace-nowrap">52.9% (n=140, p=0.499)</td>
+            <td class="px-4 py-3 whitespace-nowrap">67.9% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">44.3% (n=140, p=0.176)</td>
+            <td class="px-4 py-3 whitespace-nowrap">68.6% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+        <tr class="border-b border-gray-200 text-sm hover:bg-gray-50">
+            <td class="px-4 py-3 font-medium text-gray-900 whitespace-nowrap">18:30</td>
+            <td class="px-4 py-3 whitespace-nowrap">60.0% (n=140, p=0.018)</td>
+            <td class="px-4 py-3 whitespace-nowrap">72.1% (n=140, p=0.000)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #C6EFCE; color: #375623;">HOLDS IN BOTH HALVES</span></td>
+            <td class="px-4 py-3 whitespace-nowrap">50.0% (n=140, p=1.000)</td>
+            <td class="px-4 py-3 whitespace-nowrap">47.9% (n=140, p=0.612)</td>
+            <td class="px-4 py-3 text-center whitespace-nowrap"><span class="px-3 py-1 rounded text-xs font-semibold" style="background-color: #FCE4D6; color: #C65911;">NOT CONSISTENT</span></td>
+        </tr>
+        
+                        </tbody>
+                    </table>
+                </div>
+                <div class="px-4 py-3 text-xs text-gray-500 border-t border-gray-200">
+                    History split chronologically in half. "Consistent" means the bucket was independently SIGNIFICANT (p &lt; 0.05) in BOTH halves separately — not just averaged across the full history. A bucket that's significant all-time but only holds up in one half is more likely a temporary regime than a structural relationship.
                 </div>
             </div>
 
